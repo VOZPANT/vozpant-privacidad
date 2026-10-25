@@ -12,60 +12,63 @@ h1{font-size:1.6rem} h2{font-size:1.2rem;margin-top:1.8rem}
 <body>
 <h1>Política de privacidad de VozPant</h1>
 <p>Última actualización: 25 de octubre de 2026</p>
+<p><strong>Responsable del tratamiento:</strong> Consuelo Pinzon Gonzalez, Cali, Colombia.<br>
+<strong>Correo de contacto para datos personales:</strong> consuelopinz@gmail.com</p>
 
-<p>VozPant (paquete <code>com.vozpant</code>) es una aplicación para Android que anuncia por voz los pagos que un comercio recibe por Nequi y Bre-B. Esta política explica qué información usa la app, para qué y qué control tienes sobre ella.</p>
+<h2>1. Qué es VozPant</h2>
+<p>VozPant (paquete <code>com.vozpant</code>) es una aplicación para Android para comercios que anuncia por voz, en tiempo real, los pagos recibidos por Nequi (incluidos los recibidos por Bre-B). Podrá ampliarse a otros bancos y apps de pago; en ese caso esta política se actualizará antes de publicar esa versión.</p>
 
-<h2>1. Quién es el responsable</h2>
-<p>Mauricio Pinzón Laura, desarrollador de VozPant, Cali, Colombia.<br>
-Contacto: consuelopinz@gmail.com</p>
-
-<h2>2. Qué información usa la app</h2>
-<p><strong>Notificaciones del teléfono.</strong> Con tu permiso de "Acceso a notificaciones", VozPant lee únicamente las notificaciones de las apps de pago o de bancos que la app soporta. En esta versión son las de Nequi (<code>com.nequi.MobileApp</code>), incluidos los pagos por Bre-B que Nequi notifica, y el aviso de pago de Bre-B para negocios que aparece como notificación en la app Mensajes de Google. VozPant no pide el permiso de lectura de SMS: solo ve la notificación que el sistema le permite leer. De cada aviso toma el valor del pago, el nombre de quien paga, la plataforma y la hora. Las notificaciones de cualquier otra app se ignoran y no se guardan.</p>
-
-<p><strong>Historial de pagos.</strong> Los pagos detectados (valor, nombre del pagador, plataforma, fecha y texto de la notificación) se guardan en el propio teléfono, en la sección "Movimientos" de la app. Puedes borrarlos desde la app o desinstalándola.</p>
-
-<p><strong>Caja Remota (función opcional).</strong> Si activas esta función para que un segundo teléfono anuncie los pagos, VozPant envía a nuestros servidores (Firebase, de Google) el valor del pago, el nombre del pagador, la plataforma y la hora, únicamente a los teléfonos que tú vinculaste a tu negocio con un código temporal. Para esto la app crea una identificación anónima por instalación (Firebase Authentication anónima) y un identificador del dispositivo para mensajes (Firebase Cloud Messaging). No se pide correo, teléfono ni nombre del usuario para crear esta cuenta.</p>
-
-<p><strong>Registro de diagnóstico.</strong> La app guarda en el teléfono un registro técnico de eventos (por ejemplo, "pago detectado") para ayudarte a revisar su funcionamiento. Solo se comparte si tú decides exportarlo y enviarlo.</p>
-
-<p><strong>Compras.</strong> Si el plan Pro está disponible, el cobro lo procesa Google Play. VozPant no recibe ni guarda datos de tu tarjeta ni de tu medio de pago.</p>
+<h2>2. Qué información usa la aplicación</h2>
+<p><strong>a) Notificaciones de pago.</strong> Con tu autorización ("Acceso a notificaciones"), VozPant lee únicamente las notificaciones de las apps de pago o de bancos que soporta. En esta versión son: la app oficial de Nequi y el aviso de pago de Bre-B para negocios que llega como notificación en la app Mensajes de Google. Las notificaciones de cualquier otra aplicación se ignoran y no se leen, guardan ni envían.</p>
+<p><strong>b) No se pide permiso de SMS.</strong> VozPant no lee tu bandeja de mensajes, no recibe SMS directamente, no envía ni borra mensajes. Solo ve la notificación que el sistema le permite leer.</p>
+<p><strong>c) Datos del pago.</strong> De cada aviso se toman únicamente el monto, el nombre del pagador que informa la plataforma, la plataforma y la fecha y hora del pago.</p>
+<p><strong>d) Historial.</strong> El monto, el nombre del pagador y la hora se guardan en tu teléfono para mostrarte tu historial de movimientos.</p>
+<p><strong>e) Caja Remota (opcional).</strong> Si activas esta función para recibir los avisos en un segundo teléfono tuyo, el monto, el nombre del pagador, la plataforma, la hora y un identificador de dispositivos se envían a Firebase (Google) y quedan asociados a un código de vinculación entre tus teléfonos. VozPant usa una sesión anónima de Firebase y no pide tu correo ni contraseña.</p>
+<p><strong>f) Identificadores técnicos.</strong> Para notificaciones y Caja Remota se usan un token de Firebase Cloud Messaging y un identificador anónimo de instalación.</p>
+<p><strong>g) Suscripción PRO.</strong> El cobro lo realiza Google Play. VozPant no recibe ni guarda datos de tarjetas ni de cuentas bancarias; solo sabe si tu suscripción está activa.</p>
+<p><strong>h) Registro de diagnóstico.</strong> La app guarda en el teléfono un registro técnico de eventos para ayudarte a revisar su funcionamiento. Solo se comparte si tú decides exportarlo y enviarlo.</p>
 
 <h2>3. Lo que VozPant NO hace</h2>
 <ul>
 <li>No lee ni guarda contraseñas, claves, saldos, códigos de seguridad (OTP) ni credenciales bancarias.</li>
 <li>No accede a tu cuenta de Nequi ni de ningún banco.</li>
 <li>No lee tus contactos, fotos, ubicación ni micrófono.</li>
-<li>No vende ni comparte tu información con terceros con fines publicitarios.</li>
-<li>No muestra anuncios.</li>
+<li>No muestra anuncios ni vende tu información.</li>
 </ul>
 
-<h2>4. Para qué se usa la información</h2>
-<p>Únicamente para detectar el pago, anunciarlo por voz, mostrarlo en tu historial y, si lo activas, enviarlo a tus otros teléfonos vinculados. No se usa para perfilarte ni para publicidad.</p>
+<h2>4. Para qué se usa</h2>
+<p>Únicamente para anunciar el pago por voz, mostrar tu historial, enviar el aviso a tu segundo teléfono si activas Caja Remota y verificar tu suscripción PRO. No vendemos tu información, no la usamos para publicidad y no la compartimos con terceros, salvo los proveedores técnicos necesarios (Google/Firebase y Google Play) para que Caja Remota y la suscripción funcionen.</p>
 
-<h2>5. Servicios de terceros</h2>
-<p>La app usa servicios de Google: Firebase (autenticación anónima, base de datos en tiempo real y mensajería) y Google Play Billing. Estos servicios tienen sus propias políticas: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</p>
-
-<h2>6. Conservación y eliminación</h2>
-<p>El historial local permanece en tu teléfono hasta que lo borres o desinstales la app. Los datos de Caja Remota se conservan mientras el grupo esté activo. Puedes solicitar la eliminación de los datos de tu grupo escribiendo al correo de contacto indicando el código o identificador de tu grupo.</p>
-
-<h2>7. Seguridad</h2>
-<p>Los datos viajan cifrados hacia Firebase. Las reglas de acceso solo permiten leer los pagos a los teléfonos vinculados al grupo del negocio y solo permiten escribirlos al teléfono principal.</p>
-
-<h2>8. Permisos que solicita la app</h2>
+<h2>5. Dónde se guarda y por cuánto tiempo</h2>
 <ul>
-<li><strong>Acceso a notificaciones:</strong> para leer los avisos de pago de las apps de pago o bancos soportados (hoy Nequi y Bre-B).</li>
-<li><strong>Publicar notificaciones:</strong> para mostrar el aviso del pago recibido.</li>
-<li><strong>Pantalla completa / segundo plano:</strong> para que el aviso aparezca y suene aunque el teléfono esté bloqueado.</li>
-<li><strong>Internet:</strong> para Caja Remota, la verificación de compras y las actualizaciones.</li>
+<li>En tu teléfono, mientras tengas instalada la aplicación y no borres sus datos. Desinstalarla o borrar los datos elimina el historial local. VozPant no hace copias de seguridad en la nube.</li>
+<li>En Firebase, solo si usas Caja Remota, mientras mantengas la vinculación activa. Al desvincular los teléfonos puedes pedir la eliminación de esos datos.</li>
 </ul>
+
+<h2>6. Tus derechos (Ley 1581 de 2012 de Colombia)</h2>
+<p>Puedes conocer, actualizar, rectificar y suprimir tus datos y revocar tu autorización escribiendo a consuelopinz@gmail.com. Responderemos dentro de los plazos de la ley. También puedes retirar el permiso en cualquier momento desde los ajustes de Android (Acceso a notificaciones).</p>
+
+<h2>7. Datos de terceros</h2>
+<p>Los nombres de pagadores que aparecen en los avisos pertenecen a las personas que te pagan. VozPant los usa solo para anunciártelos a ti. Debes usar la aplicación únicamente con tu propia cuenta de negocio.</p>
+
+<h2>8. Seguridad</h2>
+<p>Los datos viajan cifrados (HTTPS) cuando se envían a Firebase. Las reglas de acceso solo permiten leer los pagos a los teléfonos vinculados a tu grupo y escribirlos únicamente al teléfono principal. Aun así, ningún sistema es 100 % seguro.</p>
 
 <h2>9. Menores de edad</h2>
-<p>VozPant está dirigida a comerciantes y personas adultas. No está dirigida a menores de 18 años.</p>
+<p>VozPant está dirigida a comerciantes adultos y no está dirigida a menores de 18 años.</p>
 
-<h2>10. Tus derechos</h2>
-<p>Conforme a la Ley 1581 de 2012 de Colombia, puedes conocer, actualizar, rectificar y solicitar la supresión de tus datos escribiendo a consuelopinz@gmail.com.</p>
+<h2>10. Cómo borrar tus datos</h2>
+<ol>
+<li>Escribe a consuelopinz@gmail.com con el asunto "Borrar datos VozPant".</li>
+<li>Indica el código o grupo de Caja Remota, si lo usaste.</li>
+<li>Borraremos en máximo 30 días los pagos y los identificadores guardados en Firebase.</li>
+<li>Los datos que solo están en tu teléfono (historial) los borras desinstalando la app o desde sus ajustes.</li>
+</ol>
 
-<h2>11. Nuevos bancos y cambios a esta política</h2>
-<p>VozPant podrá ampliar su compatibilidad a otros bancos y apps de pago. Cuando eso ocurra, se actualizará esta política y su fecha antes de publicar esa versión, indicando qué apps se leen. En todos los casos la app solo lee el aviso de pago recibido y nunca claves, saldos ni códigos de seguridad.</p>
+<h2>11. Cambios a esta política</h2>
+<p>Si cambiamos esta política publicaremos la nueva versión en esta misma página con su fecha.</p>
+
+<h2>12. Contacto</h2>
+<p>Consuelo Pinzon Gonzalez · Cali, Colombia · consuelopinz@gmail.com</p>
 </body>
 </html>
