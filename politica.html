@@ -11,7 +11,7 @@ h1{font-size:1.6rem} h2{font-size:1.2rem;margin-top:1.8rem}
 </head>
 <body>
 <h1>Política de privacidad de VozPant</h1>
-<p>Última actualización: 25 de octubre de 2026</p>
+<p>Última actualización: 26 de octubre de 2026</p>
 <p><strong>Responsable del tratamiento:</strong> Consuelo Pinzon Gonzalez, Cali, Colombia.<br>
 <strong>Correo de contacto para datos personales:</strong> consuelopinz@gmail.com</p>
 
@@ -19,11 +19,12 @@ h1{font-size:1.6rem} h2{font-size:1.2rem;margin-top:1.8rem}
 <p>VozPant (paquete <code>com.vozpant</code>) es una aplicación para Android para comercios que anuncia por voz, en tiempo real, los pagos recibidos por Nequi (incluidos los recibidos por Bre-B). Podrá ampliarse a otros bancos y apps de pago; en ese caso esta política se actualizará antes de publicar esa versión.</p>
 
 <h2>2. Qué información usa la aplicación</h2>
-<p><strong>a) Notificaciones de pago.</strong> Con tu autorización ("Acceso a notificaciones"), VozPant lee únicamente las notificaciones de las apps de pago o de bancos que soporta. En esta versión son: la app oficial de Nequi y el aviso de pago de Bre-B para negocios que llega como notificación en la app Mensajes de Google. Las notificaciones de cualquier otra aplicación se ignoran y no se leen, guardan ni envían.</p>
-<p><strong>b) No se pide permiso de SMS.</strong> VozPant no lee tu bandeja de mensajes, no recibe SMS directamente, no envía ni borra mensajes. Solo ve la notificación que el sistema le permite leer.</p>
+<p><strong>a) Notificaciones de pago.</strong> Con tu autorización ("Acceso a notificaciones"), VozPant revisa las notificaciones del teléfono solo para encontrar los avisos de pago recibido. En esta versión puede leer el contenido de: (1) las notificaciones de la app oficial de Nequi, y (2) la notificación de la app Mensajes de Google, únicamente cuando el remitente es el número de avisos de Nequi Negocios (890806 u 890706), que es como Nequi avisa los cobros hechos con el QR de Negocios (Bre-B). Las notificaciones de cualquier otra app y las de cualquier otra conversación de Mensajes se descartan al instante: no se leen, no se guardan y no se envían.</p>
+
+<p><strong>b) No se pide permiso de SMS.</strong> VozPant no tiene el permiso de SMS. No accede a tu bandeja de mensajes ni a tus conversaciones, no recibe SMS directamente y no envía ni borra mensajes. Solo procesa el texto de la notificación del aviso de pago de Nequi Negocios que Android le permite ver, y únicamente para detectar el pago.</p>
 <p><strong>c) Datos del pago.</strong> De cada aviso se toman únicamente el monto, el nombre del pagador que informa la plataforma, la plataforma y la fecha y hora del pago.</p>
-<p><strong>d) Historial.</strong> El monto, el nombre del pagador y la hora se guardan en tu teléfono para mostrarte tu historial de movimientos.</p>
-<p><strong>e) Caja Remota (opcional).</strong> Si activas esta función para recibir los avisos en un segundo teléfono tuyo, el monto, el nombre del pagador, la plataforma, la hora y un identificador de dispositivos se envían a Firebase (Google) y quedan asociados a un código de vinculación entre tus teléfonos. VozPant usa una sesión anónima de Firebase y no pide tu correo ni contraseña.</p>
+<p><strong>d) Historial.</strong> El monto, el nombre del pagador, la hora y el texto del aviso de pago se guardan solo en tu teléfono para mostrarte tu historial de movimientos. Ese texto no sale del teléfono.</p>
+<p><strong>e) Caja Remota (opcional).</strong> Si activas esta función para recibir los avisos en un segundo teléfono tuyo, el monto, el nombre del pagador, la plataforma, la hora y un identificador de dispositivos se envían a Firebase (Google); el texto del aviso original no se envía y quedan asociados a un código de vinculación entre tus teléfonos. VozPant usa una sesión anónima de Firebase y no pide tu correo ni contraseña.</p>
 <p><strong>f) Identificadores técnicos.</strong> Para notificaciones y Caja Remota se usan un token de Firebase Cloud Messaging y un identificador anónimo de instalación.</p>
 <p><strong>g) Suscripción PRO.</strong> El cobro lo realiza Google Play. VozPant no recibe ni guarda datos de tarjetas ni de cuentas bancarias; solo sabe si tu suscripción está activa.</p>
 <p><strong>h) Registro de diagnóstico.</strong> La app guarda en el teléfono un registro técnico de eventos para ayudarte a revisar su funcionamiento. Solo se comparte si tú decides exportarlo y enviarlo.</p>
